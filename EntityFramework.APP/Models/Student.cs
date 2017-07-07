@@ -20,6 +20,9 @@ namespace EntityFramework.APP.Models
         public decimal height { get; set; }
         public float weight { get; set; }
 
+        public Teacher teacher { get; set; }
+
+        public Nullable<int> standardId { get; set; }
         public Standard standard { get; set; }
 
     }

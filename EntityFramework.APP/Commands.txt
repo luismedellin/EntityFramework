@@ -1,0 +1,17 @@
+﻿--habilitar migraciones.
+
+1. Abrimos Package Manager Console
+
+2. Escrimos el comando: 
+
+enable-migrations -contexttypename SchoolContext
+
+este comando habilita las migraciones según el contexto que tengamos configurado en nuestro proyecto.
+además, crea una carpeta llamada Migrations donde se crea todo el historico de los cambios en nuestro clases de dominio.
+
+3. agregamos una migración, es decir un cambio en nuestro clases de dominio, esta migración siempre se le asigna un nombre al final
+
+add-migration InitialCreate
+
+4. Actualizamos nuestra base de datos.
+
