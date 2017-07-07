@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.BLL", "EntityFramework.BLL\EntityFramework.BLL.csproj", "{71FE412A-550D-4523-AD9F-10A6E41D0A00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.APP", "EntityFramework.APP\EntityFramework.APP.csproj", "{FD4DAC83-73B4-4968-9411-CBD9FE3C283F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{71FE412A-550D-4523-AD9F-10A6E41D0A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{71FE412A-550D-4523-AD9F-10A6E41D0A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{71FE412A-550D-4523-AD9F-10A6E41D0A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{71FE412A-550D-4523-AD9F-10A6E41D0A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4DAC83-73B4-4968-9411-CBD9FE3C283F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4DAC83-73B4-4968-9411-CBD9FE3C283F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4DAC83-73B4-4968-9411-CBD9FE3C283F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4DAC83-73B4-4968-9411-CBD9FE3C283F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
