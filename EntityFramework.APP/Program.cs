@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using EntityFramework.APP.Models;
+using System;
 
 namespace EntityFramework.APP
 {
@@ -10,7 +7,16 @@ namespace EntityFramework.APP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
+            using (var ctx = new SchoolContext())
+            {
+                Student student = new Student() { name = "Luis" };
+
+                ctx.students.Add(student);
+                ctx.SaveChanges();
+
+            }
+
+
             Console.ReadLine();
         }
     }
