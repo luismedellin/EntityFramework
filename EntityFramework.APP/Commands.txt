@@ -15,3 +15,4 @@ add-migration InitialCreate
 
 4. Actualizamos nuestra base de datos.
 
+update-database

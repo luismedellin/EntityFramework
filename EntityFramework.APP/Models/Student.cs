@@ -10,7 +10,7 @@ namespace EntityFramework.APP.Models
     {
         public Student()
         {
-
+            this.courses = new HashSet<Course>();
         }
 
         public int studentId { get; set; }
@@ -24,6 +24,8 @@ namespace EntityFramework.APP.Models
 
         public Nullable<int> standardId { get; set; }
         public Standard standard { get; set; }
+
+        public virtual ICollection<Course> courses { get; set; }
 
     }
 }
