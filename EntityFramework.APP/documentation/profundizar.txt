@@ -1,0 +1,15 @@
+﻿1. Relación 1 a 1.
+
+2. Desnormalización de tablas con Entity Framework.
+
+3. Enum with strings
+
+4. Inheritance Strategy in Code-First
+
+http://www.entityframeworktutorial.net/code-first/inheritance-strategy-in-code-first.aspx
+
+5. guardados parciales, tablas que se guardan en diferentes pasos.
+
+6. convenciones
+
+7. querys asincronos

@@ -25,6 +25,8 @@ namespace EntityFramework.APP.Models
         public Nullable<int> standardId { get; set; }
         public Standard standard { get; set; }
 
+        public virtual StudentAddress address { get; set; }
+
         public virtual ICollection<Course> courses { get; set; }
 
     }

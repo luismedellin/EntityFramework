@@ -18,6 +18,7 @@ namespace EntityFramework.APP
         public DbSet<Student> students { get; set; }
         public DbSet<Standard> standards { get; set; }
         public DbSet<Course> courses { get; set; }
+        public DbSet<StudentAddress> studentAddress{ get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

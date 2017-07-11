@@ -16,3 +16,9 @@ add-migration InitialCreate
 4. Actualizamos nuestra base de datos.
 
 update-database
+update-database -verbose --> si quiero ver lo que está pasando en la BD
+
+
+--migraciones automaticas
+
+enable-migrations –EnableAutomaticMigration:$true
