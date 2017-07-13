@@ -22,3 +22,11 @@ update-database -verbose --> si quiero ver lo que está pasando en la BD
 --migraciones automaticas
 
 enable-migrations –EnableAutomaticMigration:$true
+
+
+------------------------------------------------
+-----------PLURALSIGHT--------------------------
+------------------------------------------------
+
+Instalar EF
+Instalar EF Power Tools
