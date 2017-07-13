@@ -19,6 +19,15 @@ namespace EntityFramework.APP
         public DbSet<Standard> standards { get; set; }
         public DbSet<Course> courses { get; set; }
         public DbSet<StudentAddress> studentAddress{ get; set; }
+        public DbSet<Pais> paises{ get; set; }
+        public DbSet<Departamento> departamentos { get; set; }
+        public DbSet<Ciudad> ciudades{ get; set; }
+
+
+        //public DbSet<FactGeo> factGeos { get; set; }
+
+        public DbSet<Almacen> almacenes { get; set; }
+        public DbSet<Almacen2> almacenes2 { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

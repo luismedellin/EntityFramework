@@ -65,7 +65,34 @@
     <Compile Include="Migrations\201707100334158_studentAddress.Designer.cs">
       <DependentUpon>201707100334158_studentAddress.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201707130138197_PaisesDptoCiudad.cs" />
+    <Compile Include="Migrations\201707130138197_PaisesDptoCiudad.Designer.cs">
+      <DependentUpon>201707130138197_PaisesDptoCiudad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707130141471_FactGeo.cs" />
+    <Compile Include="Migrations\201707130141471_FactGeo.Designer.cs">
+      <DependentUpon>201707130141471_FactGeo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707130149469_FactGeo2.cs" />
+    <Compile Include="Migrations\201707130149469_FactGeo2.Designer.cs">
+      <DependentUpon>201707130149469_FactGeo2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707130157460_FactGeo3.cs" />
+    <Compile Include="Migrations\201707130157460_FactGeo3.Designer.cs">
+      <DependentUpon>201707130157460_FactGeo3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201707130203183_FactGeo4.cs" />
+    <Compile Include="Migrations\201707130203183_FactGeo4.Designer.cs">
+      <DependentUpon>201707130203183_FactGeo4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Almacen.cs" />
+    <Compile Include="Models\Almacen2.cs" />
+    <Compile Include="Models\Ciudad.cs" />
+    <Compile Include="Models\Departamento.cs" />
+    <Compile Include="Models\FactGeo.cs" />
+    <Compile Include="Models\GeoAlmacen.cs" />
+    <Compile Include="Models\Pais.cs" />
     <Compile Include="Models\StudentAddress.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Standard.cs" />
@@ -95,6 +122,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201707100334158_studentAddress.resx">
       <DependentUpon>201707100334158_studentAddress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707130138197_PaisesDptoCiudad.resx">
+      <DependentUpon>201707130138197_PaisesDptoCiudad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707130141471_FactGeo.resx">
+      <DependentUpon>201707130141471_FactGeo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707130149469_FactGeo2.resx">
+      <DependentUpon>201707130149469_FactGeo2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707130157460_FactGeo3.resx">
+      <DependentUpon>201707130157460_FactGeo3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201707130203183_FactGeo4.resx">
+      <DependentUpon>201707130203183_FactGeo4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
